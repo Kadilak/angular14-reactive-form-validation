@@ -21,7 +21,7 @@ export class AppComponent implements OnInit {
   user: IUser;
 
   constructor() {
-    this.user = { name: 'hehehheeh' } as IUser;
+    this.user = {} as IUser;
   }
 
   ngOnInit(): void {
